@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <style>
+.subheading {
+  padding-bottom: 15px;
+  color: var(--blcak);
+  font-size: 16px;
+  font-weight: 400;
+}
+.member {
+  --black: #000;
+  --text: #595959;
+  --line: #ddd;
+  --bt: #b9b9b9;
+  --white: #fff;
+
+  table {
+    border: 1px solid var(--line);
+    margin-bottom: 25px;
+  }
+  th {
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--line);
+  }
+  td {
+    border-bottom: 1px solid var(--line);
+  }
+}
+input[type="text"] {
+  width: 1000px;
+}
+input[type="text"]::placeholder {
+  border: none;
+}
+span {
+  font-size: 13px;
+  color: #818181;
+  position: ;
+  padding-right: 20px;
+}
+
+    </style>
+  </head>
+  <body>
+    <h2>폼9</h2>
+    <form class="member">
+      <fieldset>
+        <legend>.</legend>
+        <p class="subheading">회원 정보 입력</p>
+        <table>
+        <colgroup>
+          <col style="width: 180px" />
+          <col />
+        </colgroup>
+          <tbody>
+            <tr>
+              <th>아이디</th>
+                <td>
+<input type="text" class="input1" id="input1_1" placeholder="이메일 주소를 입력해주세요 (인증 시 필요)"/>
+                    <label for="input1_1"></label>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>비밀번호</th>
+                <td>
+<input type="text" class="input1" id="input1_1" placeholder="영문, 숫자, 특수문자를 조합하여 10자 이상 적어주세요."/>
+                    <label for="input1_2"></label>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>비밀번호 확인</th>
+                <td>
+<input type="text" class="input1" id="input1_1" placeholder="비밀번호를 한번더 입력해주세요"/>
+                    <label for="input1_3"></label>
+
+              </td>
+            </tr>
+            <tr>
+              <th>닉네임</th>
+                <td>
+<input type="text" class="input1" id="input1_1" placeholder="회원님을 나타내는 닉네임을 지어 주세요"/>
+                    <label for="input1_4"></label>
+              </td>
+            </tr> 
+          </tbody>
+
+        </table>
+        <p class="subheading">블로그 정보 입력</p>
+        <table>
+        <colgroup>
+          <col style="width: 180px" />
+          <col />
+        </colgroup>
+          <tbody>
+            <tr>
+              <th>블로그 이름</th>
+                <td>
+                 <input type="text" class="input1" id="input1_1" placeholder="회원님의 블로그를 잘 설명하는 이름을 적어 주세요"/>
+                    <label for="input1_5"></label>
+              </td>
+            </tr>
+            <tr>
+              <th>블로그 주소</th>
+                <td>
+                  <input type="text" class="input1" id="input1_1" placeholder="영문 소문자, 숫자, 하이픈 만 입력 가능 (개설 후 변경 불가)" />
+                    <span> .domain.com</span>
+                    <label for="input1_6"></label>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <button>이전</button>
+          <button>다음</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
