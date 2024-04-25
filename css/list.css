@@ -247,6 +247,7 @@ body {
   font-size: 45px;
   text-align: center;
   font-weight: 300;
+  padding: 25px;
 }
 .list-style1 {
   border: 1px solid #6c62f1;
@@ -254,4 +255,15 @@ body {
   border-radius: 5px;
   width: 490px;
   font-size: 22px;
+  padding: 20px;
+}
+.nuBt {
+  display: inline;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background: #6c62f1;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
 }
